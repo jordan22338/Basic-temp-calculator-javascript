@@ -1,0 +1,5 @@
+onst Kelvin = 0;
+const celcius = Kelvin - 273;
+let fahrenheit = celcius * (9/5) + 32;
+farenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
